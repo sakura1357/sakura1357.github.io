@@ -1,6 +1,59 @@
 avatar:
-  url: /images/avatar.jpg # 你的头像图片地址
+  enable: true
+  url: /images/avatar.jpg
   rounded: true
   opacity: 1
-colors:
-  primary: "#000000" # 黑色
+  mickey_mouse: false
+  status:
+    enable: true
+    emoji: 😜
+    message: 平静生活
+# colors:
+  # primary: "#000000" # 黑色
+banner:
+  enable: true
+  title: 枫的小站
+  src: /js/ui/banner.js
+  border: true
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
+#notice:
+  # enable: true
+  # content: Thanks for playing my game.
+cursor:
+  enable: true
+  default: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/pointer.cur
+  pointer: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/link.cur
+  text: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/css/md-cursors/text.cur
+social:
+  - name: GitHub
+    link: https://github.com/sakura1357
+    icon: icon-github-line
+    color: "#181717"
+  - name: E-Mail
+    link: mailto:xzt1357@gmail.com
+    icon: icon-mail-line
+    color: "#8E71C1" 
+  - name: 网易云音乐
+    link: https://music.163.com/#/user/home?id=36676976
+    icon: icon-netease-cloud-music-line
+    color: "#C10D0C"
+  - name: 哔哩哔哩动画
+    link: https://space.bilibili.com/6937373
+    icon: icon-bilibili-line
+    color: "#FF8EB3"
+pages:
+codeblock:
+  copy_btn: true
+  prismjs:
+    light: default
+    dark: tomorrow
+creative_commons:
+  license: by-nc-sa
+  post: true
+  language: deed.zh
+  clipboard: false
