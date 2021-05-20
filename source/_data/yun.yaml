@@ -47,13 +47,37 @@ social:
     icon: icon-bilibili-line
     color: "#FF8EB3"
 pages:
+  - name: 我的小伙伴们
+    url: /links/
+    icon: icon-genderless-line
+    color: dodgerblue
 codeblock:
   copy_btn: true
   prismjs:
     light: default
     dark: tomorrow
+wordcloud:
+  enable: true
 creative_commons:
   license: by-nc-sa
   post: true
   language: deed.zh
   clipboard: false
+reward:
+  enable: true
+  icon: icon-hand-coin-line
+  comment: 随意观看，随心打赏。
+  # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
+  methods:
+    - name: 支付宝
+      path: /images/donate/alipay-qrcode.jpg
+      color: "#00A3EE"
+      icon: icon-alipay-line
+    - name: 微信支付
+      path: /images/donate/wechatpay-qrcode.jpg
+      color: "#2DC100"
+      icon: icon-wechat-pay-line
+    - name: QQ 支付
+      path: /images/donate/qqpay-qrcode.jpg
+      color: "#12B7F5"
+      icon: icon-qq-line      

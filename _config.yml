@@ -8,12 +8,12 @@ subtitle: 'Peaceful life.'
 description: '平平淡淡安安静静地老去'
 keywords:
 author: 枫
-language: zh-Hans
+language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://sakura1357.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
