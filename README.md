@@ -58,7 +58,9 @@ git add -A
 git commit -m "message"
 
 # push 到远程仓库hexo分支，第一次提交，需设置一下默认提交分支，后续无需 --set-upstream
-git push --set-upstream origin hexo # 后续执行 git push origin hexo 即可
+git push --set-upstream origin hexo 
+# 后续执行 只需 git push origin hexo 即可
+git push origin hexo 
 
 ```
 
