@@ -81,3 +81,29 @@ reward:
       path: /images/donate/qqpay-qrcode.jpg
       color: "#12B7F5"
       icon: icon-qq-line      
+footer:
+  since: 2016
+  powered:
+    enable: true
+  beian:
+    enable: false
+    icp: 苏ICP备xxxxxxxx号
+  icon:
+    name: icon-cloud-line
+    animated: true
+    color: "#0078E7"
+    url: https://sponsors.yunyoujun.cn
+    title: 云游君的赞助者们
+  live_time:
+    enable: true
+    prefix: 本博客已萌萌哒地运行
+    suffix: (●'◡'●)
+    start_time: "2019-04-12T00:00:00"
+  support:
+    enable: false
+    title: 又拍云
+    link: https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral
+    logo: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/logo/upyun-logo.png
+    prefix: 本网站由
+    suffix: 提供 CDN 加速
+  #custom_text: Hosted by <a href="https://pages.coding.me" rel="noopener" target="_blank">Coding Pages</a>
